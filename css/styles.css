@@ -10,12 +10,14 @@ body {
 .container {
   position: relative;
   margin: 5px 200px;
-  height: 100vh;
+  height: 100%;
   background-color: lightblue;
 }
 .contaniner2 {
   margin: 0 100px;
 }
+/* header */
+/* prima parte header */
 .row::after {
   content: '';
   display: table;
@@ -28,18 +30,83 @@ body {
   background-color: lightyellow;
   border: 1px solid black;
 }
+/* seconda parte header */
 .row2 {
-  height: 160px;
-  width: 100%;
-  left: 0;
-  position: absolute;
+  padding: 20px 100px;
   background-color: lightgreen;
 }
 .grow {
   height: 130px;
   width: 300px;
-  background-color: black;
-  position: absolute;
-  top: 12px;
-  left: 100px;
+  background-color: pink;
+}
+/* buco vuoto */
+.vuoto {
+  height: 60px;
+  width: 100%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: blue;
+}
+/* main */
+/* parte1 */
+.parte1 {
+  height: 150px;
+  background-color: red;
+}
+.parte2 {
+ height: 120px;
+ background-color: yellow;
+}
+.parte2::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+ .suddivisione {
+  padding-top: 10px;
+  padding-left: 120px;
+}
+.more {
+  height: 80px;
+  width: 300px;
+  background-color: brown;
+  float: left;
+}
+.crm {
+  height: 70px;
+  width: 350px;
+  background-color: blue;
+  float: left;
+  margin-left: 80px;
+}
+.parte3 {
+  height: 400px;
+  width: 100%;
+  background-color: #cecece;
+}
+.parte3 {
+  content: '';
+  display: table;
+  clear: both;
+}
+.schema {
+  float: left;
+}
+.prima {
+  width: 32%;
+  height: 300px;
+  background-color: #fff;
+}
+.seconda {
+  width: 32%;
+  height: 300px;
+  background-color: #fff;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.terza {
+  width: 32%;
+  height: 300px;
+  background-color: #fff;
 }
