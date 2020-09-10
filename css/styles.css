@@ -13,6 +13,9 @@ body {
   height: 100vh;
   background-color: lightblue;
 }
+.contaniner2 {
+  margin: 0 100px;
+}
 .row::after {
   content: '';
   display: table;
@@ -24,4 +27,19 @@ body {
   height: 100px;
   background-color: lightyellow;
   border: 1px solid black;
+}
+.row2 {
+  height: 160px;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  background-color: lightgreen;
+}
+.grow {
+  height: 130px;
+  width: 300px;
+  background-color: black;
+  position: absolute;
+  top: 12px;
+  left: 100px;
 }
