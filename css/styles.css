@@ -1,0 +1,27 @@
+/* general style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  position: relative;
+  margin: 5px 200px;
+  height: 100vh;
+  background-color: lightblue;
+}
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.col {
+  float: left;
+  width: 50%;
+  height: 100px;
+  background-color: lightyellow;
+  border: 1px solid black;
+}
