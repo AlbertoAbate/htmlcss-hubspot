@@ -91,7 +91,6 @@ button.get {
 /* seconda parte header */
 .row2 {
   position: relative;
-  border-bottom: 3px solid black;
 }
 .row2 img{
   width: 100%;
@@ -108,7 +107,7 @@ button.get {
 }
 .grow .button-get {
   margin-top: 15px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   font-size: 20px;
   background-color: #ff7a59;
   color: #fff;
@@ -116,16 +115,35 @@ button.get {
 /* buco vuoto */
 .vuoto {
   height: 60px;
-  width: 100%;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  background-color: blue;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  background-color: #3f888f;
 }
 /* main */
 /* section 1 */
 .parte1 {
-  height: 150px;
-  background-color: red;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #f5f8fa;;
+}
+.parte1 .integrations {
+  width: 180px;
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+.parte1 h2,p {
+ text-align: center;
+}
+.parte1 p {
+  padding-top: 5px;
+  max-width: 600px;
+  margin: auto;
+  line-height: 20px;
 }
 .parte2 {
  height: 120px;
