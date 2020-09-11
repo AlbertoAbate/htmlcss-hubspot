@@ -7,16 +7,16 @@
 body {
   font-family: sans-serif;
   /* allungamento pagin, da modificare */
-  height: 2255px;
+  /* height: 2255px; */
 }
-.container {
-  position: relative;
+.content {
   margin: 5px 200px;
   height: 100%;
+  max-width: 1200px;
+  margin-left: 200px;
+  margin-right: 200px;
   background-color: lightblue;
-}
-.contaniner2 {
-  margin: 0 100px;
+  position: relative;
 }
 /* header */
 /* prima parte header */
@@ -29,18 +29,89 @@ body {
   float: left;
   width: 50%;
   height: 100px;
-  background-color: lightyellow;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+.lingua {
+  height: 100%;
+  padding-top: 40px;
+  background-color: #f5f8fa;
+  padding-left: 100px;
+}
+.lingua span {
+  font-family: 'Gayathri', sans-serif;
+}
+/* dettagli col buttons */
+.buttons {
+  height: 100%;
+  background-color: #f5f8fa;
+}
+.buttons i {
+  color: lightblue;
+  padding-top: 30px;
+  padding-left: 140px;
+}
+button.log-in {
+  background-color: #fff;
+  background-position: center;
+  border-radius: 5px;
+  border-color: #ff7a59;
+  font-size: 25px;
+  color: orange;
+  margin-left: 10px;
+}
+button.get {
+  border-color: #ff7a59;
+  background-color: #ff7a59;
+  border-radius: 5px;
+  font-size: 25px;
+  margin-left: 10px;
+  color: #fff;
+}
+/* parte inferiore */
+/* logo */
+.logo {
+  background-color: #fff;
+  height: 100%;
+}
+.logo img {
+  padding-top: 30px;
+  padding-left: 100px;
+}
+.navigazione {
+  padding-top: 30px;
+  padding-right: 100px;
+  background-color: #fff;
+  height: 100%;
+}
+.navigazione li {
+  display: inline;
+  margin-left: 6px;
+  font-family: 'Gayathri', sans-serif;
 }
 /* seconda parte header */
 .row2 {
-  padding: 20px 100px;
-  background-color: lightgreen;
+  position: relative;
+  border-bottom: 3px solid black;
+}
+.row2 img{
+  width: 100%;
 }
 .grow {
-  height: 130px;
   width: 300px;
-  background-color: pink;
+  transform: translate(-30px);
+  position: absolute;
+  left: 130px;
+  top: 240px;
+}
+.grow p {
+  padding-top: 6px;
+}
+.grow .button-get {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  background-color: #ff7a59;
+  color: #fff;
 }
 /* buco vuoto */
 .vuoto {
@@ -194,6 +265,9 @@ border-left: 3px solid #fff;
   border-left: 3px solid black;
 }
 /* footer */
+footer {
+  margin: 0 200px;
+}
 .footer-alto {
   height: 300px;
   width: 100%;
