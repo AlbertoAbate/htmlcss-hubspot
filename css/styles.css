@@ -7,7 +7,7 @@
 body {
   font-family: sans-serif;
   /* allungamento pagin, da modificare */
-  height: 20000px;
+  height: 2255px;
 }
 .container {
   position: relative;
@@ -149,6 +149,7 @@ body {
 .fourth {
 border-left: 3px solid #fff;
 }
+/* followers */
 .followers {
   height: 200px;
   width: 100%;
@@ -170,6 +171,7 @@ border-left: 3px solid #fff;
   width: 60%;
   border-left: 3px solid black;
 }
+/* start */
 .start {
   height: 400px;
   width: 100%;
@@ -190,4 +192,38 @@ border-left: 3px solid #fff;
 .phil {
   width: 60%;
   border-left: 3px solid black;
+}
+/* footer */
+.footer-alto {
+  height: 300px;
+  width: 100%;
+  background-color: #cecece;
+}
+.footer-alto::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.section {
+  float: left;
+  height: 100%;
+}
+.traffic {
+  width: 15%;
+  margin-left: 220px;
+}
+.connect {
+  width: 15%;
+}
+.close {
+  width: 15%;
+}
+.support {
+  width: 15%;
+}
+/* footer-basso */
+.footer-basso {
+  height: 200px;
+  width: 100%;
+  background-color: red;
 }
