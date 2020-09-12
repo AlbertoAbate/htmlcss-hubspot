@@ -51,6 +51,7 @@ body {
   padding-left: 140px;
 }
 button.log-in {
+  width: 60px;
   background-color: #fff;
   background-position: center;
   border-radius: 5px;
@@ -60,12 +61,17 @@ button.log-in {
   margin-left: 10px;
 }
 button.get {
+  width: 140px;
   border-color: #ff7a59;
   background-color: #ff7a59;
   border-radius: 5px;
   font-size: 25px;
   margin-left: 10px;
   color: #fff;
+}
+.buttons button span {
+  font-size: 15px;
+  vertical-align: middle;
 }
 /* parte inferiore */
 /* logo */
@@ -96,21 +102,29 @@ button.get {
   width: 100%;
 }
 .grow {
-  width: 300px;
+  width: 400px;
   transform: translate(-30px);
   position: absolute;
   left: 130px;
   top: 240px;
 }
 .grow p {
-  padding-top: 6px;
+  padding-top: 15px;
+  line-height: 25px;
+  text-align: left;
 }
-.grow .button-get {
+.grow button {
+  height: 45px;
+  width: 200px;
   margin-top: 15px;
-  /* margin-bottom: 10px; */
   font-size: 20px;
   background-color: #ff7a59;
+  border-color: #ff7a59;
   color: #fff;
+}
+.grow button span {
+  font-size: 16px;
+  vertical-align: middle;
 }
 /* buco vuoto */
 .vuoto {
@@ -123,9 +137,14 @@ button.get {
 }
 /* main */
 /* section 1 */
+.interno {
+  background-color: #f5f8fa;
+  border-radius: 5px;
+
+}
 .parte1 {
-  margin-left: 200px;
-  margin-right: 200px;
+  /* margin-left: 200px; */
+  /* margin-right: 200px; */
   background-color: #f5f8fa;;
 }
 .parte1 .integrations {
@@ -146,8 +165,12 @@ button.get {
   line-height: 20px;
 }
 .parte2 {
- height: 120px;
- background-color: yellow;
+ height: 250px;
+ margin-top: 40px;
+ margin-left: 200px;
+ margin-right: 200px;
+ background-color: #fff;
+ border-radius: 5px;
 }
 .parte2::after {
   content: '';
@@ -159,21 +182,61 @@ button.get {
   padding-left: 120px;
 }
 .more {
-  height: 80px;
-  width: 300px;
-  background-color: brown;
+  height: 180px;
+  width: 180px;
   float: left;
+}
+.more img {
+  height: 120px;
+  width: 160px;
+  padding-left: 10px;
+}
+.more button {
+  width: 160px;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: #ff7a59;
+  border-color: #ff7a59;
+  border-radius: 5px;
+  color: #fff;
+}
+.more button span {
+  font-size: 15px;
+  vertical-align: middle;
 }
 .crm {
-  height: 70px;
-  width: 350px;
-  background-color: blue;
+  height: 200px;
+  width: 600px;
   float: left;
-  margin-left: 80px;
+  margin-left: 120px;
+}
+.crm p {
+  max-width: 570px;
+  text-align: left;
+  padding-top: 12px;
+  line-height: 25px;
+}
+.crm h4 {
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+.crm ul {
+  padding-top: 15px;
+}
+.crm li {
+  display: inline;
+  margin-left: 15px;
+}
+.crm li i {
+  border-radius: 5px;
+  border-color: #ff7a59;
+  color: #ff7a59;
 }
 .parte3 {
-  height: 400px;
-  width: 100%;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 5px;
   background-color: #cecece;
 }
 .parte3::after {
@@ -183,23 +246,74 @@ button.get {
 }
 .schema {
   float: left;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #fff;
 }
 .prima {
-  width: 32%;
-  height: 300px;
-  background-color: #fff;
+  width: 21%;
+}
+.prima img {
+  width: 120px;
+  height: 120px;
+  padding-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.prima h2 {
+  padding-top: 30px;
+  text-align: center;
+}
+.prima p {
+  max-width: 95%;
+  padding-top: 20px;
+  line-height: 25px;
+}
+/* .prima i {
+  width: 170px;
+  height: 2px;
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: black;
+
+} */
+.prima h4 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+.prima ul {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.prima li {
+  display: inline-block;
+  text-decoration: none;
+}
+.prima li i {
+  border-radius: 5px;
+  border-color: #ff7a59;
+  color: #ff7a59;
+}
+.prima button {
+  width: 160px;
+  height: 50px;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  background-color: #ff7a59;
+  border-color: #ff7a59;
+  border-radius: 5px;
+  color: #fff;
 }
 .seconda {
-  width: 32%;
-  height: 300px;
-  background-color: #fff;
-  margin-left: 18px;
-  margin-right: 18px;
+  width: 21%;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .terza {
-  width: 32%;
-  height: 300px;
-  background-color: #fff;
+  width: 21%;
 }
 /* section 2*/
 .community {
