@@ -226,9 +226,10 @@ button.get {
 }
 .crm li {
   display: inline;
-  margin-left: 15px;
+  padding-right: 20px;
 }
 .crm li i {
+  padding-right: 15px;
   border-radius: 5px;
   border-color: #ff7a59;
   color: #ff7a59;
@@ -237,7 +238,7 @@ button.get {
   margin-left: 200px;
   margin-right: 200px;
   border-radius: 5px;
-  background-color: #cecece;
+  background-color: #f5f8fa;
 }
 .parte3::after {
   content: '';
@@ -246,15 +247,13 @@ button.get {
 }
 .schema {
   float: left;
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 50px 100px 50px 100px;
   background-color: #fff;
 }
 .prima {
   width: 21%;
 }
-.prima img {
+.schema img {
   width: 120px;
   height: 120px;
   padding-top: 10px;
@@ -262,42 +261,41 @@ button.get {
   margin-left: auto;
   margin-right: auto;
 }
-.prima h2 {
+.schema h2 {
   padding-top: 30px;
   text-align: center;
 }
-.prima p {
+.schema p {
   max-width: 95%;
   padding-top: 20px;
   line-height: 25px;
 }
-/* .prima i {
+/* .prima i{
   width: 170px;
   height: 2px;
   margin-top: 20px;
   margin-left: 30px;
   background-color: black;
-
 } */
-.prima h4 {
+.schema h4 {
   text-transform: uppercase;
   text-align: center;
   padding-top: 20px;
 }
-.prima ul {
+.schema ul {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.prima li {
+.schema li {
   display: inline-block;
   text-decoration: none;
 }
-.prima li i {
+.schema li i {
   border-radius: 5px;
   border-color: #ff7a59;
   color: #ff7a59;
 }
-.prima button {
+.schema button {
   width: 160px;
   height: 50px;
   margin-left: 35px;
@@ -312,21 +310,39 @@ button.get {
   margin-left: 5px;
   margin-right: 5px;
 }
+
 .terza {
   width: 21%;
 }
 /* section 2*/
 .community {
-  height: 60px;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  background-color: blue;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #00a4bd;
+  line-height: 30px;
+}
+.community h2 {
+  vertical-align: middle;
+  max-width: 890px;
+  margin: auto;
+  color: #fff;
+}
+.community h2 p {
+  text-align: center;
+  max-width: 800px;
+  padding-bottom: 30px;
+}
+.community p {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  color: #fff;
 }
 /* quattro colonne */
 .rettangoli {
   height: 500px;
   width: 100%;
-  background-color: lightgreen;
+  background-color: #00a4bd;
   /* border-bottom: 1px solid #fff; */
   padding-top: 20px;
 }
@@ -341,7 +357,20 @@ button.get {
   width: 20%;
   height: 200px;
   background-color: red;
+  /* display: table; */
 }
+.rettang img {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .rettang span {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 45px;
+} */
 .first {
   margin-left: 100px;
 }
