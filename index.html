@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="./css/styles.css">
@@ -13,41 +15,61 @@
          <header>
            <!-- prima parte header -->
            <div class="row">
-               <!--parte superiore  -->
+               <!--parte superiore sinistra  -->
               <div class="col">
                 <div class="lingua">
-                 <i class="fas fa-globe-europe"></i>
-                 <span>English</span>
-                 <i class="fas fa-chevron-down"></i>
-                 <i class="fad fa-exclamation"></i>
-                 <span>Contact Us</span>
+                  <a href="#">
+                    <i class="fas fa-globe-europe"></i>
+                    English
+                    <i id="down" class="fas fa-chevron-down"></i>
+                  </a>
+                  <a href="#">Contact Us</a>
                 </div>
               </div>
+              <!-- parte superiore destra -->
              <div class="col">
                <div class="buttons">
-                 <i class="fas fa-search"></i>
-                 <button class="log-in" type="button" name="button"><span> Log in</span> </button>
-                 <button class="get" type="button" name="button"><span>GetHubspotfree</span></button>
+                <a href="#"><i class="fas fa-search"></i>
+                </a>
+                 <a href="#" class="log-in">Log in</a>
+                 <a href="#" class="get">GetHubspotfree</a>
                </div>
              </div>
-             <!--parte inferiore  -->
+             <!--parte inferiore sinistra  -->
              <div class="col">
                <div class="logo">
                  <img src="./img/logo.svg" alt="">
                </div>
              </div>
+             <!-- parte inferiore destra -->
              <div class="col">
                <div class="navigazione">
                  <ul>
-                   <li>Software</li>
-                   <li><i class="fas fa-chevron-down"></i></li>
+                   <li>
+                     <a href="#">
+                       Software
+                     <i class="fas fa-chevron-down"></i>
+                     </a>
+                   </li>
                    <li>Pricing</li>
-                   <li>Resources</li>
-                   <li><i class="fas fa-chevron-down"></i></li>
-                   <li>Partners</li>
-                   <li><i class="fas fa-chevron-down"></i></li>
-                   <li>About</li>
-                   <li><i class="fas fa-chevron-down"></i></i></li>
+                   <li>
+                     <a href="#">
+                     Resources
+                     <i class="fas fa-chevron-down"></i>
+                     </a>
+                   </li>
+                   <li>
+                     <a href="#">
+                     Partners
+                     <i class="fas fa-chevron-down"></i>
+                     </a>
+                   </li>
+                   <li>
+                     <a href="#">
+                     About
+                     <i class="fas fa-chevron-down"></i>
+                   </a>
+                   </li>
                  </ul>
                </div>
              </div>
@@ -56,21 +78,17 @@
 
            <div class="row2">
              <!-- <div class="sfondo"> -->
-               <img class="jumbo" src="./img/jumbotron.png" alt="">
+             <img class="jumbo" src="./img/jumbotron.png" alt="">
              </div>
              <div class="grow">
                <h1>There's a better way to grow</h1>
                <p>Marketing,sales,and software that helps your business grow without compromise. Because "good for the business" should also mean "good for the costumers"</p>
                <button type="button" name="button-get"><span>GetHotspotFree</span></button>
-               <p>Got started with a FREE tools, and upgrade as you grow</p>
+               <p>Get started with a FREE tools, and upgrade as you grow</p>
              </div>
 
            </div>
          </header>
-         <!-- buco vuoto -->
-         <div class="vuoto">
-
-         </div>
         <!-- main -->
         <main>
           <!-- section 1 -->
@@ -350,26 +368,20 @@
                 <li>Francais</li>
               </ul>
             </div>
+
             <hr>
-              <!-- <span>Copyright<i class="far fa-copyright"></i>2019 HubSpot, inc.</span> -->
 
             <div class="last-section">
               <div class="copy">
                 <img src="./img/hubspot-logo-footer.svg" alt="logo">
-              <!-- <div class="legal">
-                Legal Stuff
               </div>
-              <div class="policy">
-                Privacy Policy
-              </div> -->
+              <div class="stuff">
               <ul>
                 <li>Legal Stuff</li>
                 <li>Privacy Policy</li>
               </ul>
+              </div>
             </div>
-
-            </div>
-          </div>
         </footer>
 
 

@@ -6,9 +6,11 @@
 }
 body {
   font-family: sans-serif;
-  height: 100vh;
-  /* allungamento pagin, da modificare */
-  /* height: 2255px; */
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  text-decoration: none;
 }
 .content {
   margin: 5px 200px;
@@ -30,52 +32,55 @@ body {
   float: left;
   width: 50%;
   height: 100px;
-  /* border: 1px solid black; */
 }
+/* parte superiore sinistra */
 .lingua {
   height: 100%;
   padding-top: 40px;
   background-color: #f5f8fa;
   padding-left: 100px;
+  border-bottom: 1px solid black;
 }
-.lingua span {
-  font-family: 'Gayathri', sans-serif;
+.lingua a {
+  color: #cbd6e2;
 }
-/* dettagli col buttons */
+#ciao {
+  border-right: 2px solid #cbd6e2;
+  padding-right: 3px;
+}
+/* parte superiore destra */
 .buttons {
   height: 100%;
+  border-bottom: 1px solid black;
   background-color: #f5f8fa;
 }
 .buttons i {
   color: lightblue;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-left: 140px;
 }
-button.log-in {
-  width: 60px;
+.buttons .log-in {
+  padding: 10px;
   background-color: #fff;
   background-position: center;
   border-radius: 5px;
   border-color: #ff7a59;
-  font-size: 25px;
+  font-size: 20px;
   color: orange;
   margin-left: 10px;
+  text-decoration: none;
 }
-button.get {
-  width: 140px;
+.buttons .get {
+  padding: 10px;
   border-color: #ff7a59;
   background-color: #ff7a59;
   border-radius: 5px;
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 10px;
   color: #fff;
+  text-decoration: none;
 }
-.buttons button span {
-  font-size: 15px;
-  vertical-align: middle;
-}
-/* parte inferiore */
-/* logo */
+/* parte inferiore sinistra */
 .logo {
   background-color: #fff;
   height: 100%;
@@ -84,6 +89,7 @@ button.get {
   padding-top: 30px;
   padding-left: 100px;
 }
+/* parte inferiore destra */
 .navigazione {
   padding-top: 30px;
   padding-right: 100px;
@@ -92,15 +98,20 @@ button.get {
 }
 .navigazione li {
   display: inline;
-  margin-left: 6px;
-  font-family: 'Gayathri', sans-serif;
+  margin-left: 4px;
+  color: #cbd6e2;
+}
+.navigazione li a {
+  color: #cbd6e2;
 }
 /* seconda parte header */
 .row2 {
   position: relative;
+  background-color: #fef8f0;
 }
 .row2 img{
-  width: 100%;
+  width: 80%;
+  margin-left: 224px;
 }
 .grow {
   width: 400px;
@@ -110,9 +121,12 @@ button.get {
   top: 240px;
 }
 .grow p {
-  padding-top: 15px;
+  padding-top: 20px;
   line-height: 25px;
   text-align: left;
+}
+.grow p:last-child {
+  font-size: 12px;
 }
 .grow button {
   height: 45px;
@@ -127,21 +141,21 @@ button.get {
   font-size: 16px;
   vertical-align: middle;
 }
-/* buco vuoto */
-.vuoto {
-  height: 60px;
-  margin-left: 200px;
-  margin-right: 200px;
+.row2::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  background-color: #a5d5d0;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
-  background-color: #3f888f;
 }
 /* main */
 /* section 1 */
 .interno {
   background-color: #f5f8fa;
-  border-radius: 5px;
-
 }
 .parte1 {
   /* margin-left: 200px; */
@@ -310,6 +324,8 @@ button.get {
 }
 /* section 2*/
 .community {
+  margin-left: 200px;
+  margin-right: 200px;
   padding-top: 20px;
   padding-bottom: 30px;
   background-color: #00a4bd;
@@ -335,10 +351,11 @@ button.get {
 /* quattro colonne */
 .rettangoli {
   height: 500px;
-  width: 100%;
+  /* width: 74%; */
+  width: 1120px;
   background-color: #00a4bd;
-  /* border-bottom: 1px solid #fff; */
   padding-top: 20px;
+  margin-left: 200px;
 }
 .rettangoli {
   content: '';
@@ -346,14 +363,13 @@ button.get {
   clear: both;
 }
 .rettang {
+  width: 20%;
+  height: 200px;
   text-align: center;
   padding-top: 10px;
   line-height: 70px;
   float: left;
-  width: 20%;
-  height: 200px;
   background-color: #00a4bd;
-  /* display: table; */
 }
 .bt {
   border-bottom: 3px solid #fff;
@@ -404,7 +420,7 @@ border-left: 3px solid #fff;
   width: 40%;
 }
 .zona h3 {
-  font-size: 60px;
+  font-size: 40px;
   padding-bottom: 10px;
   color: black;
 }
@@ -554,11 +570,15 @@ footer {
   margin-left: 200px;
   float: left;
 }
-.copy ul {
+.copy p {
+  margin-left: 200px;
+  /* float: left; */
+}
+.stuff ul {
   float: right;
   margin-right: 200px;
 }
-.copy li {
+.stuff li {
   display: inline;
   margin-left: 8px;
   list-style-type: none;
